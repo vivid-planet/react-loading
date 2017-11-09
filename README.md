@@ -6,4 +6,4 @@
 `react-loading` renders a loading in [React](https://github.com/facebook/react).
 
 ## Installation
-```npm install --save react-loading```
+```npm install --save @vivid-planet/react-loading```
