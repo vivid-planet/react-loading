@@ -1,8 +1,8 @@
-@keyframes reactLoading-loading-rotateLoading {
+@keyframes kwfUp-reactLoading-rotate {
     0%    { transform: rotate(0deg); }
     100%  { transform: rotate(360deg); }
 }
-@keyframes reactLoading-loading-fadeInLoading {
+@keyframes kwfUp-reactLoading-fadeIn {
     0%    { opacity: 0; }
     100%  { opacity: 0.6; }
 }
@@ -12,7 +12,7 @@
     text-align: center;
 
     &__loading {
-        animation: reactLoading-loading-rotateLoading 0.8s infinite linear, reactLoading-loading-fadeInLoading 2s linear;
+        animation: kwfUp-reactLoading-rotate 0.8s infinite linear, kwfUp-reactLoading-fadeIn 2s linear;
         border: 2px solid #ccc; border-right-color: transparent;
         margin: 20px 0 20px -23px;
         border-radius: 50%;
