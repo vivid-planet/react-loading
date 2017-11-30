@@ -1,7 +1,7 @@
 {
   "name": "@vivid-planet/react-loading",
   "version": "1.1.0",
-  "description": "A higher order component decorator for loading using React",
+  "description": "Loading wrapper component for react",
   "main": "./lib/index.js",
   "scripts": {
     "scss": "node-sass --output-style expanded --recursive scss/default.scss dist/react-loading.css",
