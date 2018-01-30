@@ -21,7 +21,7 @@ const Loading = ({ isLoading, errorMessage, children }) => {
 Loading.propTypes = {
     isLoading: PropTypes.bool.isRequired,
     errorMessage: PropTypes.string,
-    children: PropTypes.element.isRequired
+    children: PropTypes.element
 };
 
 export default Loading;
